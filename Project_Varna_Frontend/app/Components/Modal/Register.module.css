@@ -1,0 +1,33 @@
+.authformcontainer,  .registerform {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    margin-top: -2%;
+  }
+  .registerform {
+    display: flex;
+    flex-direction: column;
+    border-spacing: 5px;
+  }
+  .registerform label{
+    font-family: 'Montserrat', sans-serif;
+    color:#c1bdba
+  }
+  .linkbtn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }
+  .authformcontainer h2{
+    font-family: 'Montserrat', sans-serif;
+    color:#d9d2cd;
+  }
+  
+  .registerform input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(191, 188, 184);
+  }
+  
